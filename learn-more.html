@@ -5,48 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn More – Sage AI</title>
     <link rel="stylesheet" href="style.css">
+
     <style>
-        /* Page-specific styling (keeps your main theme perfect) */
-        .content {
+        .learn-wrapper {
             max-width: 900px;
-            margin: auto;
-            padding: 150px 20px;
-            line-height: 1.8;
+            margin: 160px auto 100px;
+            padding: 0 20px;
+            line-height: 1.85;
+            color: #dce1ff;
         }
 
-        .content h1 {
-            font-size: 3rem;
+        .learn-title {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 55px;
+        }
+
+        .learn-title h1 {
+            font-size: 3.2rem;
+            font-weight: 700;
             background: linear-gradient(90deg, #a7baff, #e3c2ff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
         }
 
-        .content h2 {
-            margin-top: 50px;
-            font-size: 1.8rem;
+        .learn-title p {
+            opacity: 0.85;
+            font-size: 1.15rem;
+        }
+
+        .learn-section {
+            margin-bottom: 55px;
+        }
+
+        .learn-section h2 {
+            font-size: 1.9rem;
+            margin-bottom: 12px;
             background: linear-gradient(90deg, #6a8bff, #b46cff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        .content p {
-            opacity: 0.85;
-            margin-bottom: 20px;
+        .learn-section p,
+        .learn-section ul {
+            opacity: 0.83;
+            font-size: 1.08rem;
         }
 
-        .content ul {
-            margin: 20px 0;
-            padding-left: 20px;
-            opacity: 0.85;
+        .learn-section ul {
+            padding-left: 22px;
+            margin-top: 10px;
+        }
+
+        .learn-highlight {
+            background: rgba(110,135,255,0.12);
+            border-left: 3px solid #6a8bff;
+            padding: 14px 18px;
+            border-radius: 8px;
+            margin: 28px 0;
+            font-weight: 500;
+            font-size: 1.1rem;
         }
 
         .back-btn {
             display: block;
-            margin: 50px auto 0;
-            text-align: center;
             width: fit-content;
+            margin: 60px auto 0;
             padding: 12px 24px;
             border-radius: 10px;
             background: linear-gradient(90deg, #6a8bff, #b46cff);
@@ -65,36 +89,79 @@
     <ul class="nav-links">
         <li><a href="index.html#hero">Home</a></li>
         <li><a href="index.html#solutions">Solutions</a></li>
-        <li><a href="index.html#pricing">Pricing</a></li>
         <li><a href="learn-more.html" class="cta-btn">Learn More</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
         <li><a href="index.html#request" class="cta-btn">Request</a></li>
     </ul>
 </nav>
 
-<!-- PAGE CONTENT -->
-<div class="content">
-    <h1>Learn More About Sage AI</h1>
+<!-- CONTENT -->
+<div class="learn-wrapper">
 
-    <p>Sage AI is an emerging technology studio focused on creating practical, powerful, and accessible AI tools for individuals, businesses, and creators. This page provides a deeper look at what we do, how our technology works, and why our solutions are effective in real-world environments.</p>
+    <div class="learn-title">
+        <h1>Understanding Sage AI</h1>
+        <p>A professional overview of our mission, technology, and impact.</p>
+    </div>
 
-    <h2>What Is Sage AI?</h2>
-    <p>Sage AI specializes in building intelligent systems that help businesses automate tasks, improve customer engagement, and scale operations. Our work combines modern software engineering with advanced AI models to deliver real results—not just experimental concepts.</p>
+    <div class="learn-section">
+        <h2>What Is Sage AI?</h2>
+        <p>
+            Sage AI is an applied intelligence initiative designed to make advanced automation accessible to 
+            real businesses. We engineer systems that enhance productivity, streamline workflows, and support 
+            critical business functions with precision and scalability.
+        </p>
 
-    <h2>What Types of Tools Do We Build?</h2>
-    <ul>
-        <li><strong>Custom Websites</strong> – Fully responsive, branded, modern, and built for performance.</li>
-        <li><strong>AI Chatbots</strong> – Support, sales, bookings, customer engagement, and automation.</li>
-        <li><strong>Automation Systems</strong> – Reduce manual workload and increase business efficiency.</li>
-        <li><strong>Custom AI Tools</strong> – Analytics dashboards, generators, workflow engines, and more.</li>
-    </ul>
+        <div class="learn-highlight">
+            We focus on practicality, reliability, and measurable performance—not theoretical AI.
+        </div>
+    </div>
 
-    <h2>Why Businesses Use AI</h2>
-    <p>Artificial intelligence allows companies to streamline operations, reduce costs, and deliver faster and better customer experiences. Even small businesses can now benefit from automation and intelligent software once only available to big corporations.</p>
+    <div class="learn-section">
+        <h2>Why Organizations Adopt AI</h2>
+        <p>Companies rely on AI to modernize operations by:</p>
 
-    <h2>Our Mission</h2>
-    <p>The goal of Sage AI is simple: to bring smart, affordable AI tools to everyone. Whether you're a business owner, freelancer, or entrepreneur, our systems help you save time and grow faster.</p>
+        <ul>
+            <li>Automating repetitive tasks at scale</li>
+            <li>Reducing operational costs and inefficiencies</li>
+            <li>Improving customer experience and responsiveness</li>
+            <li>Enhancing internal workflows and accuracy</li>
+            <li>Enabling growth without increasing staff load</li>
+        </ul>
+    </div>
 
-    <a href="index.html" class="back-btn">← Back to Home</a>
+    <div class="learn-section">
+        <h2>Core Capabilities of Sage AI</h2>
+        <ul>
+            <li><strong>Website Intelligence:</strong> Clean, high-performance websites built for clarity and reliability.</li>
+            <li><strong>Conversational AI:</strong> Intelligent chatbot systems capable of handling support and engagement.</li>
+            <li><strong>Automation Engineering:</strong> Workflow systems that reduce manual workload and optimize operations.</li>
+            <li><strong>Custom AI Tools:</strong> Specialized solutions crafted for unique business challenges.</li>
+        </ul>
+    </div>
+
+    <div class="learn-section">
+        <h2>Stability, Security & Reliability</h2>
+        <p>
+            All Sage AI systems are designed with reliability and controlled output behavior in mind. 
+            Our tools prioritize predictable performance and streamlined workflow integration, ensuring 
+            businesses remain productive and stable.
+        </p>
+    </div>
+
+    <div class="learn-section">
+        <h2>How We Work</h2>
+        <p>The process is direct and efficient:</p>
+
+        <ul>
+            <li>You submit a request describing your needs.</li>
+            <li>We identify core requirements and solution paths.</li>
+            <li>Our engineers build your custom AI-powered system.</li>
+            <li>You receive a fully functional product ready for deployment.</li>
+        </ul>
+    </div>
+
+    <a class="back-btn" href="index.html">← Back to Home</a>
+
 </div>
 
 </body>
