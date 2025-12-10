@@ -1,109 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sage AI Support</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- NAVIGATION -->
-    <nav class="navbar">
-        <div class="logo">Sage AI Support</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#solutions">Solutions</a></li>
-            <li><a href="#request">Request</a></li>
-        </ul>
-    </nav>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">Sage AI Support</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#request">Request</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+    </ul>
+</nav>
 
-    <!-- HERO SECTION -->
-    <header class="hero">
-        <div class="hero-overlay"></div>
+<!-- HERO -->
+<header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Intelligent AI Support for Modern Businesses</h1>
+        <p>Sage AI helps you request websites, chatbots, automations, and powerful AI tools — instantly and professionally.</p>
+        <a href="#solutions" class="btn primary">Explore Services</a>
+    </div>
+</header>
 
-        <div class="hero-content">
-            <h1>Smart AI Support for Modern Business</h1>
-            <p>Submit requests for websites, chatbots, automations and more — Sage AI delivers fast, reliable, intelligent solutions for your business.</p>
+<!-- ABOUT -->
+<section id="about" class="section about">
+    <h2>Who We Are</h2>
+    <p class="desc">
+        Sage AI Support is a modern digital AI studio dedicated to building real, high-quality solutions for individuals, brands, and businesses.
+        We focus on clean design, advanced automation, and modern development powered by artificial intelligence.
+    </p>
+    <p class="desc">
+        Our mission is simple: bring enterprise-level AI solutions to everyday people and organizations through simplicity, clarity, and powerful results.
+    </p>
+</section>
 
-            <a href="#solutions" class="btn primary">Discover Services</a>
+<!-- SOLUTIONS -->
+<section id="solutions" class="section solutions">
+    <h2>What We Offer</h2>
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=1200&q=80">
+            <h3>Custom Websites</h3>
+            <p>Beautiful, responsive websites designed to communicate your brand and convert customers effectively.</p>
         </div>
-    </header>
 
-    <!-- ABOUT -->
-    <section id="about" class="section about">
-        <h2>Who We Are</h2>
-        <p>
-            Sage AI Support is a next-generation digital request hub for businesses that want instant, intelligent solutions.
-            We combine modern development, automation, and artificial intelligence to bring your ideas to life.
-        </p>
-        <p>
-            Whether you're launching a website, building a chatbot, improving workflows, or modernizing your brand —
-            Sage AI takes care of the technical work so you can focus on scaling your business.
-        </p>
-    </section>
-
-    <!-- SOLUTIONS -->
-    <section id="solutions" class="section solutions">
-        <h2>What We Offer</h2>
-        <div class="grid">
-
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=1200&q=80">
-                <h3>Custom Website Creation</h3>
-                <p>Modern, mobile-friendly websites designed for conversion, speed, and brand identity.</p>
-            </div>
-
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80">
-                <h3>AI Chatbot Development</h3>
-                <p>Automate customer support, lead generation, bookings, and sales using custom-built AI chatbots.</p>
-            </div>
-
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1200&q=80">
-                <h3>Business Automation</h3>
-                <p>Reduce manual work with intelligent workflows that streamline operations and boost efficiency.</p>
-            </div>
-
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1526378722370-8f1b3f1a3bbf?auto=format&fit=crop&w=1200&q=80">
-                <h3>Digital Tools & Integrations</h3>
-                <p>Custom tools and integrations to help your business operate faster, smarter, and more effectively.</p>
-            </div>
-
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80">
+            <h3>AI Chatbots</h3>
+            <p>Automate customer support, bookings, sales, and user interactions using powerful AI-driven chatbots.</p>
         </div>
-    </section>
 
-    <!-- REQUEST FORM -->
-    <section id="request" class="section request">
-        <h2>Submit a Request</h2>
-        <p>Tell us what you need — we’ll build it.</p>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1200&q=80">
+            <h3>Workflow Automation</h3>
+            <p>Save time and increase efficiency with intelligent workflow tools built specifically for your operations.</p>
+        </div>
 
-        <form class="form">
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email Address" required>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1526378722370-8f1b3f1a3bbf?auto=format&fit=crop&w=1200&q=80">
+            <h3>Custom AI Tools</h3>
+            <p>Advanced AI tools tailored to solve unique business challenges and deliver measurable results.</p>
+        </div>
+    </div>
+</section>
 
-            <select required>
-                <option value="">Select service type</option>
-                <option>Website Creation</option>
-                <option>AI Chatbot Build</option>
-                <option>Business Automation</option>
-                <option>Custom AI Tool</option>
-            </select>
+<!-- HOW IT WORKS -->
+<section class="section steps">
+    <h2>How It Works</h2>
+    <div class="step-grid">
+        <div class="step">
+            <span>1</span>
+            <h4>Create Your Account</h4>
+            <p>Sign up using your email and get immediate access to your request dashboard.</p>
+        </div>
 
-            <textarea placeholder="Describe your request..." rows="6" required></textarea>
+        <div class="step">
+            <span>2</span>
+            <h4>Submit Your Request</h4>
+            <p>Tell us exactly what you need — website, chatbot, automation, or a custom AI system.</p>
+        </div>
 
-            <button class="btn primary">Send Request</button>
-        </form>
-    </section>
+        <div class="step">
+            <span>3</span>
+            <h4>Receive Your Solution</h4>
+            <p>Our team + AI generates your solution quickly, professionally, and with clean execution.</p>
+        </div>
+    </div>
+</section>
+
+<!-- DISCOVER MORE -->
+<section class="section discover">
+    <h2>Discover More Solutions</h2>
+    <p class="desc">
+        Explore additional tools designed to elevate your business operations using AI and modern automation.
+    </p>
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1603190287605-e8a67ba7c525?auto=format&fit=crop&w=1200&q=80">
+            <h3>AI Marketing Automation</h3>
+            <p>Automate your content, posts, communication, and strategy with AI-powered growth.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1200&q=80">
+            <h3>Analytics Dashboards</h3>
+            <p>Clear, real-time analytics dashboards to help track your AI requests, customer activity, and results.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=1200&q=80">
+            <h3>Enterprise Automation</h3>
+            <p>Large-scale AI automation systems designed for businesses that need heavy operational support.</p>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section testimonials">
+    <h2>What Our Clients Say</h2>
+
+    <div class="grid">
+        <div class="testimonial">
+            <p>"Sage AI helped us automate our customer support and saved us hours each week."</p>
+            <h4>- Maria, Business Owner</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>"The website they built was clean, modern, and increased our conversions immediately."</p>
+            <h4>- Daniel, Startup CEO</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>"The request system is simple, intuitive, and extremely fast. Highly recommend."</p>
+            <h4>- Ahmed, Freelancer</h4>
+        </div>
+    </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="section pricing">
+    <h2>Pricing Plans</h2>
+    <div class="price-grid">
+
+        <div class="price-card">
+            <h3>Starter</h3>
+            <p class="price">$0</p>
+            <ul>
+                <li>1 request per month</li>
+                <li>Email support</li>
+                <li>Standard delivery</li>
+            </ul>
+        </div>
+
+        <div class="price-card highlight">
+            <h3>Pro</h3>
+            <p class="price">$39/mo</p>
+            <ul>
+                <li>Unlimited requests</li>
+                <li>Priority delivery</li>
+                <li>Advanced AI tools</li>
+            </ul>
+        </div>
+
+        <div class="price-card">
+            <h3>Business</h3>
+            <p class="price">$89/mo</p>
+            <ul>
+                <li>Custom automation systems</li>
+                <li>Dedicated support</li>
+                <li>Enterprise integrations</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- REQUEST FORM -->
+<section id="request" class="section request">
+    <h2>Submit a Request</h2>
+    <p class="desc">Tell us what you need and Sage AI will take care of the rest.</p>
+
+    <form class="form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+
+        <select required>
+            <option value="">Select a service</option>
+            <option>Website Creation</option>
+            <option>AI Chatbot Build</option>
+            <option>Business Automation</option>
+            <option>Custom AI Tool</option>
+        </select>
+
+        <textarea rows="6" placeholder="Describe your request..." required></textarea>
+
+        <button class="btn primary">Submit Request</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© 2025 Sage AI Support — AI solutions for modern business.</p>
+</footer>
 
 </body>
 </html>
 
-   
-           
-           
-              
-            
